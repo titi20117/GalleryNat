@@ -1,0 +1,32 @@
+.products {
+    background-color: #eeeeee;
+    margin: 10px 350px 0;
+    padding: 30px 0;
+}
+
+.products__feild {
+    margin: 10px;
+    display: flex;
+}
+
+.products__feild span {
+    font-size: 20px;
+    display: block;
+    font-weight: 700;
+    position: relative;
+    left: 100px;
+}
+
+.products__feild span+input {
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    left: 650px;
+    width: 300px;
+}
+
+.products__submit {
+    position: relative;
+    top: 25px;
+    left: 200px;
+}
